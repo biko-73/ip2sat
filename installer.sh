@@ -36,7 +36,7 @@ echo $MY_SEP
 echo 'Downloading '$MY_FILE' ...'
 echo $MY_SEP
 echo ''
-wget -T 2 $MY_URL -P "/tmp/"
+wget $MY_URL -P "/tmp/"
 
 if [ -f $MY_TMP_FILE ]; then
 
